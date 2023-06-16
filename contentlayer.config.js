@@ -103,7 +103,7 @@ export const Mix = defineDocumentType(() => ({
       type: 'date',
       required: true,
     },
-    mp3Url: {
+    id: {
       type: 'string',
       required: true,
     },
