@@ -43,7 +43,7 @@ export default function PostPage({ mix }: { mix: Mix }) {
           <MinimalCard
             title={mix.title}
             blurb={mix.description}
-            previewUrl={mix.mp3Url}
+            previewUrl={`/api/mix/${mix.id}`}
             imageUrl={mix.thumbnailUrl}
           ></MinimalCard>
           {/* <p className=" md:my-8">

@@ -18,6 +18,5 @@ module.exports =
   },
   ignorePatterns: [
     "**/*.js",
-    "src/pages/api/**"
   ]
 }
